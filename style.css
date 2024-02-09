@@ -156,8 +156,10 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;
+}
   
- }
+ 
  .first  :nth-child(1)
  {
     font-size: 35px;
@@ -216,3 +218,16 @@ h1 {
     align-items: center;
 }
 
+.tv-img {
+    position: relative;
+}
+.tv-img img {
+    position: relative;
+    z-index:  1; 
+}
+.tv-img video {
+    position: absolute;
+    top: 40px;
+    width: 400px;
+    z-index: 0;
+}
