@@ -8,7 +8,7 @@
 
 body {
     background-color: black;
-    
+
 }
 
 .main {
@@ -66,7 +66,7 @@ nav button {
     font-size: 1rem;
     cursor: pointer;
     width: 100px;
-   
+
 }
 
 .btn-red {
@@ -111,11 +111,11 @@ h1 {
 }
 
 .content div button {
-   
+
     font-family: 'Poppins', sans-serif;
     width: 150px;
     font-size: 15px;
-   
+
     font-weight: 700;
 }
 
@@ -125,61 +125,64 @@ h1 {
     padding: 12px;
     border-radius: 7px;
     font-size: 0.9rem;
-    background-color: rgba(0, 0, 0, 0.662);
+    background-color: rgba(51, 50, 50, 0.232);
     border: 2px solid black;
     width: 250px;
-    color: aliceblue;
+    color: white;
 
 }
-.separation{
+
+.separation {
     height: 7px;
     width: 100vw;
     background-color: rgba(157, 154, 154, 0.517);
-   position: relative;
-   z-index: 20;
+    position: relative;
+    z-index: 20;
 }
 
-.first{
+.first {
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 80vw;
+    width: 70vw;
     margin: auto;
     height: 80vh;
 
 }
 
- .first  span {
+.first span {
     color: aliceblue;
- }
- section.first div {
+}
+
+section.first div {
     display: flex;
     flex-direction: column;
     gap: 15px;
     align-items: center;
 }
-  
- 
- .first  :nth-child(1)
- {
+
+
+.first :nth-child(1) {
     font-size: 35px;
     font-family: 'Oswald', sans-serif;
-    font-size: clamp(16px,100vw,45px);;
+    font-size: clamp(16px, 100vw, 45px);
+    ;
     font-weight: 900;
- }
-
- .first  :nth-child(2)
- {
-   
-    font-family: 'Poppins', sans-serif;
-    font-size: clamp(16px,10vw,24px);
-    font-weight: 300;
- }
-
-.sc-img{
-    position: relative;
-   
 }
+
+.first :nth-child(2) {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: clamp(16px, 10vw, 24px);
+    font-weight: 300;
+}
+
+.sc-img {
+    position: relative;
+
+}
+
 .sc-img img {
     width: 555px;
     position: relative;
@@ -192,7 +195,8 @@ h1 {
     right: 63px;
     width: 419px;
 }
-.overlay{
+
+.overlay {
     height: 80px;
     width: 270px;
     background-color: rgb(0, 0, 0);
@@ -207,10 +211,12 @@ h1 {
     align-content: center;
     padding: 4px;
 }
-.overlay  img{
+
+.overlay img {
     height: 70px;
     width: 53px;
 }
+
 .first .overlay {
     display: flex;
     flex-direction: row;
@@ -221,13 +227,90 @@ h1 {
 .tv-img {
     position: relative;
 }
+
 .tv-img img {
     position: relative;
-    z-index:  1; 
+    z-index: 1;
 }
+
 .tv-img video {
     position: absolute;
     top: 40px;
     width: 400px;
     z-index: 0;
+}
+
+.faq {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80vw;
+    width: 70vw;
+    margin: auto;
+    height: 160vh;
+    gap: 10px;
+}
+
+.faq h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.faq-box {
+    max-width: 80vw;
+    width: 70vw;
+
+    background-color: rgba(101, 100, 100, 0.432);
+    text-align: left;
+
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+div.faq-box> :nth-child(1) {
+    position: relative;
+    left: 20px;
+    font-size: 24px;
+}
+
+div.faq-box > :nth-child(2) {
+    position: relative;
+    right: 20px;
+    font-size: 50px;
+    font-weight: 100;
+
+}
+div.faq > span
+{
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+div.faq > div.inputs > button {
+width: 150px;
+}
+.footer
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 80vw;
+    width: 70vw;
+    margin: auto;
 }
